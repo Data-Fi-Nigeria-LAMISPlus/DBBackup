@@ -1,0 +1,18 @@
+basePackage: org.lamisplus.modules.dbbackup
+name: DBBackupModule
+dependencies: {PatientModule: 1.0.0}
+store: true
+menus:
+  - icon: fa fa-heartbeat
+    disabled: false
+    name: DBBackup
+    state: dbbackup
+    url: /across/resources/static/dbbackup/index.html
+umdLocation: /across/resources/static/dbbackup/index.html
+webModules:
+  - breadcrumb: DBBackup
+    name: DBBackupModule
+    path: dbbackup
+    position: 99
+
+
